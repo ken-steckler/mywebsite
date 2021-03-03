@@ -4,56 +4,46 @@
     <meta charset="utf-8">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
     <link rel="stylesheet" href="mystyle.css">
     <title>Ken Steckler</title>
   </head>
   <body>
-    <div class="navbarwrap">
-      <div class="navbar">
-        <h3>KS</h3>
-      </div>
 
-
-      <div class="navbarright">
-        <h3><a href="myabout.html">About</a></h3>
-      </div>
-      <div class="navbarright2">
-        <h3><a href="myportfolio.html">Portfolio</a></h3>
-      </div>
-      <div class=navbarright2>
-        <h3><a href="myblog.html">Blog</a></h3>
-      </div>
-      <div class=navbarright2>
-        <h3><a href="mycontact.html">Contact</a></h3>
-      </div>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">Projects</a>
+      <a href="#about">About</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
+
+    
 
     <div class="frontpage">
-
       <div class="boxshadow">
         <div id="frontpageintro">
-          <h1>Hello</h1>
-          <p>I'm Ken
-          <br>Frontend web developer</p>
+          <h1>Hi, I'm Ken
         </div>
       </div>
 
       </div>
     </div>
 
-    <div id="aboutme">
-      <div id="abouttitle">
-        Who am I?
-      </div>
-      <div class="aboutmecontent">
-        <div id="kenimg2">
-          <img src="images/ken2.jpg">
-        </div>
-        <div class="aboutmecontent">
-        <h2>I am a minimalist, pharmacist, photographer and aspiring web developer.</h2>
-        </div>
-      </div>
-    </div>
 
 
     <div class="title">
