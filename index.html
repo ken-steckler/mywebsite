@@ -5,58 +5,67 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script>
-    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-    </script>
     <link rel="stylesheet" href="mystyle.css">
     <title>Ken Steckler</title>
   </head>
   <body>
 
-    <div class="topnav" id="myTopnav">
-      <a href="#home" class="active">Home</a>
-      <a href="#news">Projects</a>
-      <a href="#about">About</a>
-      <a href="#blog">Blog</a>
-      <a href="#contact">Contact</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
+    <div class="sidenav">
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="myportfolio.html">Projects</a></li>
+        <li><a href="myabout.html">About</a></li>
+        <li><a href="myblog.html">Blog</a></li>
+        <li><a href="mycontact.html">Contact</a></li>
+      </ul>
     </div>
 
-    
+    <div class="nonnav">
 
-    <div class="frontpage">
-      <div class="boxshadow">
-        <div id="frontpageintro">
-          <h1>Hi, I'm Ken
-        </div>
-      </div>
-
+    <div class = "frontintropage">
+      <h1>Hi, My name is <br>Ken Steckler</h1>
+      <div class="frontintropage2">
+        <p>Web developer  <br>Content Creator  <br>Photographer</p>
       </div>
     </div>
 
+    <div class="aboutmyself">
+      <div class="aboutmyselfcontainer1">
+        <h2>A little bit about myself...</h2>
+        <p>I am an aspiring web developer/software engineer with a focus on creating
+          simple yet creative web sites and applications. <br>
+        <p>I am familiar with HTML, CSS, and Javascript and front-end frameworks
+          such as React to implement applications into websites. <br>
+        <p>I am also learning how to code backend with Python and using Django as a framework,
+          as well as using SQL for data. <br>
+        <p>I have no technical degree and am self taught but I am dedicated and have
+          been teaching myself something new every day since last year. <br>
+        <p>Feel free to take a look below for some of my work!
+      </div>
 
+      <div class="aboutmyselfcontainer2">
+        <img src="images/ken2.jpg">
+      </div>
+    </div>
 
     <div class="title">
-      <h1>My Projects</h1>
+      <h1>Projects</h1>
 
     <div class="portfoliowork">
       <div class="project">
-        Google Clone Page
+        <h2>Google Clone Page</h2>
+          <p>This was one of the first projects that I worked on from scratch.
+            HTML and CSS were the only tools that were used to create this project.
+            I plan to expand from this and be able to integrate more advanced features
+            using JavaScript and Python code with Django. <br>
+          <p>HTML, CSS
       </div>
       <div class="project">
         <a href="https://github.com/ken-steckler/googlepage"><img src="images/googleclone.png"></a>
       </div>
     </div>
+
+  </div>
 
 
   </body>
