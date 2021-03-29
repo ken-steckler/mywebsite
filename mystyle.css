@@ -7,6 +7,40 @@
   width: 100%;
 }
 
-.skills {
-  display: flex;
+.aboutme {
+  display: inline-flex;
+  gap: 4vh;
+}
+
+
+.aboutme img {
+  height: auto;
+  margin-bottom: 20vh;
+  width: 80%;
+}
+
+.photoContainer {
+  display: grid;
+  gap: 3vh;
+  margin: 3vh;
+}
+
+.row1 {
+  display: inline-flex;
+  gap: 3vh;
+}
+
+.row2 {
+  display: inline-flex;
+  gap: 3vh;
+}
+
+.row3 {
+  display: inline-flex;
+  gap: 3vh;
+}
+
+.photoContainer img {
+  height: auto;
+  width: 100%;
 }
