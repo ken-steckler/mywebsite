@@ -19,11 +19,7 @@ body {
   font-size: 2.1vw;
 }
 
-.navbar-nav.navbar-center {
-  position: absolute;
-  left: 50%;
-  transform: translatex(-50%);
-}
+
 
 .nav-item{
   margin: 14px;
@@ -68,4 +64,13 @@ body {
 .photoContainer img {
   height: auto;
   width: 100%;
+}
+
+section {
+opacity: 0;
+transition: opacity 1s;
+}
+
+section.visible {
+opacity: 1;
 }
