@@ -1,72 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="mystyle.css">
-    <title>Ken Steckler</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <title>Ken Steckler</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-    <div class="sidenav">
-      <ul>
-        <li><a href="#home" class="active">Home</a></li>
-        <li><a href="myportfolio.html">Projects</a></li>
-        <li><a href="myabout.html">About</a></li>
-        <li><a href="myblog.html">Blog</a></li>
-        <li><a href="mycontact.html">Contact</a></li>
-      </ul>
-    </div>
-
-    <div class="nonnav">
-
-    <div class = "frontintropage">
-      <h1>Hi, My name is <br>Ken Steckler</h1>
-      <div class="frontintropage2">
-        <p>Web developer  <br>Content Creator  <br>Photographer</p>
-      </div>
-    </div>
-
-    <div class="aboutmyself">
-      <div class="aboutmyselfcontainer1">
-        <h2>A little bit about myself...</h2>
-        <p>I am an aspiring web developer/software engineer with a focus on creating
-          simple yet creative web sites and applications. <br>
-        <p>I am familiar with HTML, CSS, and Javascript and front-end frameworks
-          such as React to implement applications into websites. <br>
-        <p>I am also learning how to code backend with Python and using Django as a framework,
-          as well as using SQL for data. <br>
-        <p>I have no technical degree and am self taught but I am dedicated and have
-          been teaching myself something new every day since last year. <br>
-        <p>Feel free to take a look below for some of my work!
-      </div>
-
-      <div class="aboutmyselfcontainer2">
-        <img src="images/ken2.jpg">
-      </div>
-    </div>
-
-    <div class="title">
-      <h1>Projects</h1>
-
-    <div class="portfoliowork">
-      <div class="project">
-        <h2>Google Clone Page</h2>
-          <p>This was one of the first projects that I worked on from scratch.
-            HTML and CSS were the only tools that were used to create this project.
-            I plan to expand from this and be able to integrate more advanced features
-            using JavaScript and Python code with Django. <br>
-          <p>HTML, CSS
-      </div>
-      <div class="project">
-        <a href="https://github.com/ken-steckler/googlepage"><img src="images/googleclone.png"></a>
-      </div>
-    </div>
-
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">KS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link disabled" href="">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="myblog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="myportfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="myphotography.html">Photography</a>
+      </li>
+    </ul>
   </div>
+</nav>
+<br>
+
+<div class="container">
+  <img class="frontimg" src="images/frontimg.jpg">
+  <h3>Welcome to my website!</h3>
+  <p>My name is Ken Steckler, I am a pharmacist, photographer and aspiring software engineer.</p>
+  <p>The reason why I wanted to make my own website is not only because I wanted to showcase some of my work but to also share my story.</p>
+  <p>Shoot me a message!</p>
+  <button type="button" class="btn btn-secondary">Contact</button>
+</div>
+
+<div class="skills">
+  
+</div>
 
 
-  </body>
+</body>
 </html>

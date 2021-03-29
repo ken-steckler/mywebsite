@@ -1,102 +1,12 @@
-body {
-  background-color: #F0F1F2;
-  font-family: 'Shippori Mincho', serif;
-  color: ##D9D9D9;
+.container img {
+  margin-bottom: 20px;
 }
 
-ul {
-  list-style-type: none;
-  margin-top: 175px;
-  padding: 0;
-  width: 13%;
-  height: 100%;
-  font-size: 4vh;
-  background-color: #f1f1f1;
-  position: fixed;
-  overflow: auto;
-}
-
-li a {
-  display: block;
-  color: #8e8e8e;
-  padding: 9px 23px;
-  text-decoration: none;
-}
-
-/* Change the link color on hover */
-li a:hover {
-  color: #646464;
-}
-
-.active {
-  color: #646464;
-  font-size: 4.3vh;
-}
-
-.nonnav {
-  margin-left: 15%;
-}
-
-.frontintropage {
-  display: flex;
-  height: 750px;
-  width: 100%;
-  color: #54594D;
-  align-items: center;
-}
-
-.frontintropage {
-  font-size: 38px;
-}
-
-.frontintropage2 {
-  text-align: right;
-  padding-left: 250px;
-}
-
-
-
-.aboutmyself {
-  display: flex;
-  padding: 25px;
-  background: #54594D;
-  color: white;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-}
-
-.aboutmyselfcontainer1 {
-  width: 4312px;
-  margin: 8px;
-  padding-left: 12px;
-  padding-right: 50px;
-}
-
-.aboutmyselfcontainer2 img{
-  width: 72%;
-  padding-left: 82px;
+.frontimg {
   height: auto;
-}
-
-
-.title {
-  font-size: 32px;
-  margin: 8vh;
-}
-
-.portfoliowork {
-  display: flex;
-  height: 350px;
-  font-size: 15px;
-}
-
-.project {
   width: 100%;
-  margin: 20px;
 }
 
-.project img{
-  height: 250px;
-  width: auto;
+.skills {
+  display: flex;
 }
