@@ -1,0 +1,12 @@
+.portfoliolink {
+  display: flex;
+  grid-gap: 5px;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.portfoliolinkimg {
+  height: 30px;
+  width: 30px;
+}
